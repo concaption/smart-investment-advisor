@@ -9,6 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def getStockPrice(ticker):
+    """
+    Get the latest stock price from yahoo finance
+    :param ticker: ticker symbol for the stock
+    :return: latest stock price
+    """
     # Fetch data for the given ticker symbol
     stock = yf.Ticker(ticker)
 
