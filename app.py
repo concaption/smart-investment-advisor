@@ -117,7 +117,7 @@ if st.session_state.start_chat:
         run = client.beta.threads.runs.create(
             thread_id=st.session_state.thread_id,
             assistant_id=assistant_id,
-            instructions="Please answer the queries using the knowledge provided in the files.When adding other information mark it clearly as such.with a different color"
+            instructions="Please answer the queries using the knowledge provided in the files. When adding other information mark it clearly as such.with a different color"
         )
 
         # Poll for the run to complete and retrieve the assistant's messages
