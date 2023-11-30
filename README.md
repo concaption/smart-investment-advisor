@@ -38,7 +38,7 @@ make run
 4. Click "Start Chat" to begin interacting with the smart investment advisor.
 
 ## How It Works
-![](/worflow.png)
+![](/workflow.png)
 
 ## Contributing
 
